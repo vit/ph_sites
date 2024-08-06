@@ -7,10 +7,11 @@ help:	## Show this help
 	@sed -ne '/@sed/!s/## //p' $(MAKEFILE_LIST)
 
 
-build:	## Generate the sites from src to dst
+build:	build-hugo ## Generate the sites from src to dst
+
+build-hugo:
 	docker build -t hugo-env-my -f "docker/DockerfileHugo" .
 	docker run -it -v ./dst:/src/public hugo-env-my
-
 
 debug:	## Start docker compose with debug output
 	docker compose up
@@ -24,6 +25,9 @@ down:	## Stop docker compose
 ps:	## List docker compose containers
 	docker compose ps
 
+
+news:
+	python3 bin/gen_news.py
 
 
 

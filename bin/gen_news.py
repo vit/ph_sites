@@ -5,8 +5,8 @@ import dateutil
 import yaml
 
 # DB_FILENAME = 'data/ipacs_news.db'
-DB_FILENAME = 'ipacs_news.db'
-TEXT_FILENAME = 'data/ipacs_news.yaml'
+DB_FILENAME = 'data/ipacs_news.db'
+TEXT_FILENAME = 'src/data/ipacs_news.yaml'
 FIELD_NAMES = ['id', 'title', 'content', 'created_at']
 
 with sqlite3.connect(DB_FILENAME) as connection:

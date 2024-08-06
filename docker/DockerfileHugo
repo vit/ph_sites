@@ -9,7 +9,9 @@ RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 COPY ./src /src
 WORKDIR /src
 
-ENTRYPOINT [ "./build.sh" ]
+# ENTRYPOINT [ "./build.sh" ]
+
+ENTRYPOINT [ "make", "build" ]
 
 # ENTRYPOINT /bin/bash
 
