@@ -1,0 +1,12 @@
+|	p_reg01.jpg	|reg01.jpg
+|	p_reg02.jpg	|reg02.jpg
+|	p_reg03.jpg	|reg03.jpg
+|	p_reg04.jpg	|reg04.jpg
+|	p_reg05.jpg	|reg05.jpg
+|	p_reg06.jpg	|reg06.jpg
+|	p_reg07.jpg	|reg07.jpg
+|	p_reg08.jpg	|reg08.jpg
+|	p_reg09.jpg	|reg09.jpg
+|	p_reg10.jpg	|reg10.jpg
+|	p_reg11.jpg	|reg11.jpg
+|	p_reg12.jpg	|reg12.jpg

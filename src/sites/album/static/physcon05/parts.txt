@@ -1,0 +1,6 @@
+Registration	|	Part1     | p_reg01.jpg | 1
+Welcome reception	|	Part2     | p_wel01.jpg | 2
+Plenary sessions	|	Part3	    | p_pl01.jpg | 3
+Regular sessions	|	Part4	    | p_r01.jpg | 4
+Poster session	|	Part5	    | p_p01.jpg | 5
+Coffee breaks	|	Part6	    | p_br01.jpg | 6

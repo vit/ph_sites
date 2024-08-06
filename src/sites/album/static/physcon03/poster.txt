@@ -1,0 +1,4 @@
+|	1s.jpg	|1.jpg
+|	2s.jpg	|2.jpg
+|	3s.jpg	|3.jpg
+|	4s.jpg	|4.jpg

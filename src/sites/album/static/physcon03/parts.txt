@@ -1,0 +1,6 @@
+Registration	|	registration	| 2s1.jpg
+Welcome reception	|	welcome	| 8s1.jpg
+Plenary sessions	|	plenary	| 7s1.jpg
+Regular sessions	|	regular	| 7s1.jpg
+Poster session	|	poster	| 2s1.jpg
+Coffee breaks	|	coffee	| 3s1.jpg

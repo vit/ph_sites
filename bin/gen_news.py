@@ -5,7 +5,7 @@ import dateutil
 import yaml
 
 # DB_FILENAME = 'data/ipacs_news.db'
-DB_FILENAME = 'data/ipacs_news.db'
+DB_FILENAME = 'data/ipacs/ipacs_news.db'
 TEXT_FILENAME = 'src/data/ipacs_news.yaml'
 FIELD_NAMES = ['id', 'title', 'content', 'created_at']
 
