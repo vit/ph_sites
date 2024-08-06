@@ -1,0 +1,48 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="conf-page flex-l mt2 mw8 center">
+
+    <div style="display: flex;">
+
+
+    <aside style="width: 200px; border-right: solid thin grey;">
+
+<ul style="padding-inline-start: 18px;">
+  {{ $arr := strings.Split .Page.Path "/" | last 1 }}
+  {{ $s := delimit $arr "" }}
+  {{ range .Params.confMenu }}
+  <li><a href="{{ .addr }}"
+    style="{{ if in .addr $s }}font-weight: 900;{{ end }}"
+    >{{ .title }}</a></li>
+  {{ end }}
+</ul>
+
+<div style="text-align: center; font-size: 90%;">
+  <b>ADDRESS OF<br>ORGANIZING COMMITTEE</b><br>
+<a href="https://www.ipme.ru/ipme/labs/ccs/" target=_blank>Prof. A.Fradkov</a><br>
+The Institute for<!-- br --> Problems of<br>Mechanical Engineering<br>
+61 Bolshoy ave. V.O. <br>199178, St.Petersburg,<br>
+RUSSIA<br>
+Ph: +7(812)321-4766,<br>Fax: +7(812)321-4771<BR>
+
+</div>
+
+    </aside>
+    <article class="center cf -pv5 ph3 ph4-ns mw7">
+      <header>
+        <h1 class="f1">
+
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+      </div>
+    </article>
+
+
+    </div>
+
+
+  </div>
+{{ end }}

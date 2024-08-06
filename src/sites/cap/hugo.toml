@@ -1,0 +1,113 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'CYBERNETICS AND PHYSICS Open Access Journal'
+theme = 'ananke'
+
+copyright = 'The Laboratory "Control of Complex Systems", IPME RAS'
+
+
+
+#publishDir = '../publish'
+
+contentDir = "sites/cap/content"
+publishDir = "public/cap"
+
+
+[params]
+    copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
+    currentSiteId = 'cap'
+
+
+# sectionPagesMenu = 'main'
+
+
+
+
+[menus]
+  [[menus.main]]
+    # name = 'Main page'
+    name = 'Main'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    # name = 'Aims and Scope'
+    name = 'Scope'
+    # title = 'Aims and Scope'
+    pageRef = '/scope'
+    weight = 20
+    # pre = '<i class="fa-solid fa-code"></i>'
+  [[menus.main]]
+    # name = 'Editorial Board'
+    name = 'Editorial'
+    pageRef = '/editorial'
+    weight = 30
+  [[menus.main]]
+    # name = 'Author Information'
+    name = 'For authors'
+    pageRef = '/forauthors'
+    weight = 40
+  [[menus.external]]
+    name = 'Submit Online'
+    url = 'http://coms.physcon.ru/conf/1635/'
+    weight = 50
+  [[menus.external]]
+    name = 'Read Online'
+    url = 'http://lib.physcon.ru/doc?id=29e59dce4f11'
+    weight = 60
+  [[menus.main]]
+    name = 'Contacts'
+    pageRef = 'contacts'
+    weight = 70
+
+
+  [[menus.physcon]]
+    identifier = 'ipacs'
+    name = 'IPACS Home'
+    url = 'http://physcon.my'
+    title = 'International Physics and Control Society home page'
+    weight = 10
+  [[menus.physcon]]
+    identifier = 'coms'
+    name = 'CoMS'
+    url = 'http://coms.physcon.my'
+    title = 'Conference Management System (submission site)'
+    weight = 20
+  [[menus.physcon]]
+    identifier = 'cap'
+    name = 'CAP Journal'
+    url = 'http://cap.physcon.my'
+	title = 'Cybernetics and Physics Journal'
+    weight = 30
+  [[menus.physcon]]
+    identifier = 'lib'
+    name = 'Library'
+    url = 'http://lib.physcon.my'
+	title = 'IPACS Electronic library'
+    weight = 40
+#   [[menus.physcon]]
+#     identifier = 'dir'
+#     name = 'Directory'
+#     url = 'http://physcon.my/dir'
+# 	title = 'Physics and Control resources directory'
+#     weight = 50
+  [[menus.physcon]]
+    identifier = 'conf'
+    name = 'Conferences'
+    url = 'http://conf.physcon.my'
+	title = 'Conferences sites'
+    weight = 60
+  [[menus.physcon]]
+    identifier = 'album'
+    name = 'Album'
+    url = 'http://album.physcon.my'
+	title = 'Album'
+    weight = 70
+
+
+
+
+
+
+
+
+

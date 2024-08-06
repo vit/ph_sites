@@ -1,0 +1,15 @@
+
+
+FROM golang:1.22
+
+RUN go install github.com/gohugoio/hugo@latest
+RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+
+
+COPY ./src /src
+WORKDIR /src
+
+ENTRYPOINT [ "./build.sh" ]
+
+# ENTRYPOINT /bin/bash
+

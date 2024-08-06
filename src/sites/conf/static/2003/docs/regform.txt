@@ -1,0 +1,118 @@
+
+                 PHYSCON 2003  REGISTRATION / HOTEL RESERVATION FORM
+
+ PARTICIPANT DATA
+ Last Name _____________     First Name _____________
+ Title/Position _________    Name on the badge_____________
+ 
+
+ REGISTRATION FEE
+ (Registration fee includes: attendance of all sessions, proceedings on CD-ROM, 
+ program and abstracts volume, transfer to and from airport, lunches and
+ refreshments during the conference, city bus tour, welcome reception).
+
+ Full registration:     Before May 15: US$/EUR 350; After May 15: US$/EUR 400
+ Student registration:  Before May 15: US$/EUR 150;  After May 15: US$/EUR 200
+ IEEE or EPS member registration*):
+                        Before May 15: US$/EUR 330; After May 15: US$/EUR 380
+*) Please indicate your IEEE/EPS membership # ________________
+
+ Subtotal(1)___________US$
+
+ HOTEL RESERVATION
+ (Total payment or deposit of one-night price)
+ Hotel           Single Room        Double Room   
+ category  
+ ***/****        US$/EUR 115        US$/EUR 140  
+ ***             US$/EUR 90         US$/EUR 130
+ **/***          US$/EUR 60         US$/EUR 90
+ 
+ REMARKS: - Prices include all taxes and breakfast;
+     - Rooms in (*****) hotels and suites are available upon special request;
+     - Names and addresses of the hotels will be posted at http://physcon.ru in May.
+
+ Please reserve_____Single ____Double
+ Hotel __________ stars,  ____ nights.
+ Date of arrival ______________ Date of departure _________________
+ 
+ Subtotal(2)___________US$/EUR
+
+
+ SOCIAL PROGRAM 
+ The following sightseeing tours will be organized:
+ Survey bus tour of St. Petersburg 
+ (free of charge for registered participants):      August 18,19,   16:00 - 18:00; 
+                                                     August 20      19:00 - 21:00
+ Waterbus tour "Over rivers and channels" (US$/EUR 6.00): August 21, 18:30 - 20:00        
+ The Hermitage (US$/EUR15.00):                   August 19,21,22,23 11:00 - 13:00  
+ Russian Museum (Russian Icon and Russian Avant-garde)(US$/EUR 12.00):  
+                                            August 18, 20, 21, 11:00 - 13:00   
+ Bus tour to suburbs  "Petergof fountains" (US$/EUR 30.00):   August 19, 23
+ Bus tour  to suburbs  "Pushkin-Pavlovsk" (US$/EUR 35.00):    August 19, 24
+
+ (more information on social program and sightseeing in St.Petersburg 
+ will be posted on the PhysCon 2003 website: http://physcon.ru . 
+ Since a lot of tourists and guests are expected in the
+ year 2003 in Saint Petersburg due to the 300th anniversary of the city, 
+ you are recommended to make advance booking of your tours:
+
+   SOCIAL EVENTS BOOKING:
+ EVENTS                          Price per person   Date   Qty of persons:
+ City tour                        free of charge    ____    ________
+ Welcome reception                free of charge  August 19 ________
+ Symposium banquet                   US$/EUR 60   August 22 ________
+ Hermitage                           US$/EUR 15     ____    ________
+ Russian museum                      US$/EUR 12     ____    ________
+ Waterbus tour                       US$/EUR  6     ____    ________
+ Tour: "Petergof Fountain"           US$/EUR 30     ____    ________
+ Tour: "Pushkin-Pavlovsk"            US$/EUR 35     ____    ________
+
+ Subtotal(3)___________US$/EUR
+
+
+ ADDITIONAL HARD COPY OF THE PROCEEDINGS
+ Additionally to the CD-ROM, hard copy of the preprints (4 volumes)
+ is available for 50 US$/EUR per copy.
+ I order _____ copies of the preprints.
+
+ Subtotal (4)___________US$/EUR
+
+ SURCHARGE FOR EXTRA PAGES IN THE PROCEEDINGS
+Papers that exceed the page length limits will only appear in the
+Conference Proceedings if an over-length page charge of US $100 per page
+is paid by May 15, 2003.
+
+ Subtotal (5) for ____ pages: ___________US$/EUR
+
+ TOTAL PAYMENT ATTACHED (1+2+3+4+5): __________US$/EUR
+
+ Date ______________   Signature__________________
+
+      ********************************************************
+    CANCELLATION POLICY
+ The registration fee will be refunded less a handling fee of US$/EUR 35,- 
+ upon a written request received before July 15, 2003 (postmarked). 
+ After this date there will be no refund but the authors will receive 
+ the preprints CD-ROM by mail. 
+
+    METHOD OF PAYMENT
+ The payment should be sent in US DOLLARS or EURO by direct bank transfer or
+ wire transfer to:
+
+    in US DOLLARS:
+ Name of Bank: INDUSTRY & CONSTRUCTION BANK, St. Petersburg, Russia
+ Address: 38, Nevsky Prospect,  St. Petersburg, 191011, RUSSIA
+        code SWIFT = ICSPRU2P
+ Beneficiary name: INN 7801037069 Institute of Mechanical Engineering Problems
+        Account No. 40502 84011 10050 00006
+        Corresponding account No. 30101 81020 00000 00791
+        (Vasileostrovsky branch).
+
+    in EURO:
+ Name of Bank: INDUSTRY & CONSTRUCTION BANK, St. Petersburg, Russia
+ Address: 38, Nevsky Prospect,  St. Petersburg, 191011, RUSSIA
+        code SWIFT = ICSPRU2P
+ Beneficiary name: INN 7801037069 Institute of Mechanical Engineering Problems
+        Account No. 40503 97871 10050 00018
+        Corresponding account No. 30101 81020 00000 00791
+        (Vasileostrovsky branch).

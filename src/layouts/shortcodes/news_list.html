@@ -1,0 +1,17 @@
+
+
+{{ range $.Site.Data.ipacs_news }}
+
+    <div style="margin-top: 60px;">
+      <h2>{{ .title | safeHTML }}</h2>
+      <div >
+        {{ $t := time.AsTime .created_at }}
+        {{ time.Format "2 Jan 2006" $t }}
+      </div>
+      <p>
+        {{ .content | safeHTML }}
+      </p>
+    </div>
+
+{{ end }}
+

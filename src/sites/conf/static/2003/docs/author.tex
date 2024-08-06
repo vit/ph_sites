@@ -1,0 +1,643 @@
+%  This file follows LaTeX-2e specifications. 
+%  LaTeX 2.09 users must replace the first line for
+%  \documentstyle{physcon}  
+   
+\documentclass{physcon}
+\begin{document}
+\title{Author's Guide\\
+International Conference\\
+``Physics and Control'' (PhysCon 2003)
+}
+
+\author{Alexander N. Churilov\\                               
+Department of Computer Science\\
+St. Petersburg Marine Technical University\\
+3 Lotsmanskaya Str.,
+190008 St. Petersburg, Russia\\
+churilov@nm.ru, http://churilov.nm.ru}
+\maketitle
+
+\begin{abstract}
+This document provides instructions for 
+preparing a paper for Proceedings of the 
+International Conference 
+``Physics and Control" (PhysCon 2003).
+Conference proceedings on CD-ROM and program volume will
+be distributed among the participants at the Registration Desk. 
+Additionally, hard copy of the proceedings (four volumes are planned) 
+can be ordered (see registration form). 
+These volumes will also be distributed by IEEE CSS.
+
+Our guidelines basically follow those adopted for IEEE CDC 
+publications. In particular, we used the instructions      
+written for IEEE Conferences on 
+Decision and Control held in 1999--2002.
+This document describes the preparation of a conference 
+paper. 
+\end{abstract}
+
+\section{Paper Submission}
+
+Authors submit their papers to the 
+Organizing Committee in an electronic form.
+Please follow carefully the submission process described
+on the conference site {\bf http://www.physcon.ru}.
+The deadline for receipt of your contribution 
+is {\bf May 15, 2003}.  
+Papers received after the deadline, may not be 
+included in the proceedings. 
+Hardcopies are not required. 
+Please, apply exclusively the process pointed above, and 
+do not send your manuscripts to the members
+of Program or Organizing Committees by e-mail.
+
+\section{General Specifications}
+
+\subsection{Important Information}
+
+\begin{enumerate}
+\item You need to submit you manuscript
+as PDF or Postscript file (PDF format is preferable). 
+Please avoid nonstandard fonts that may cause reading 
+or conversion problems. Postscript Type~1 fonts are desirable.
+Any other file formats (Microsoft Word, \LaTeX, etc) are not
+acceptable. For more details please see the section
+``Technical information.''
+The size of the file preferably should not exceed 1.5~Mb. 
+(This may be achieved by avoiding complicated high-resolution 
+figures.) 
+Please zip your file if its size exceeds 500~Kb. 
+
+\item When producing you PDF file please set 
+A4 (210~mm by 297~mm) paper size and 600 dpi resolution.
+All the descriptions of nonstandard fonts should 
+be embedded as subsets into your document.
+Do not generate your PDF file as image (without fonts recognition).
+(See the section ``Technical information.'')
+     
+\item  Those participants who will give a Plenary 
+or Invited Lecture can submit a full-size 
+paper of twelve (12) pages, each Regular or Poster Lecture 
+is allotted a paper of six (6) pages in the proceedings.  
+Each manuscript must follow this rule.  Authors with 
+multiple submissions must apply these guidelines to each 
+manuscript separately.
+Up to three additional pages will be permitted for 
+a charge of 50 US Dollars/Euro for each additional page.
+
+\item The title and authorship of your paper will 
+appear in the final program, in the table of contents, 
+and author index of the proceedings as they are 
+shown in your manuscript submitted to 
+the Organizing Committee.  
+\end{enumerate}
+ 
+\subsection{Preparation of Papers}
+
+Your paper must be formatted in two columns.  
+To ensure uniformity of appearance for the proceedings, 
+the papers must conform to the following specifications. 
+It is highly recommended to use \LaTeX~ in preparing and
+formatting your manuscript.
+
+The hight of the text block must be {\bf 240~mm}.
+The width of each column must be {\bf 80~mm}.
+The distance between the two columns of text 
+must be {\bf 5~mm}. Thus, the width of the text block
+is {\bf 165~mm}.
+The text must be centered left-to-right 
+on the page, i.e., left and right margins 
+should be the same.
+The distance from the bottom 
+edge of the paper to the bottom of the last 
+line of type on the page should be not less than {\bf 30~mm}.  
+This allows room for the printer to 
+insert the copyright notice on the first page 
+and page numbers.
+
+Please, do not insert page numbers or other informaton into
+running headers or footers. This will be done by us.
+
+\subsection{Required Font Sizes}
+
+For the main body of the text the {\bf 10} point size roman font
+should be used. 
+Some technical formatting programs print 
+mathematical formulas in italic type, with subscripts and 
+superscripts in a slightly smaller font size. This is acceptable.
+
+\subsection{Title} The title should be centered across the top 
+of the first page. The {\bf 18} point size bold font is recommended.
+
+\subsection{Authors' Names and Addresses} The authors' names and
+addresses must be centered below the title. The {\bf 12} point 
+size roman font is recommended. Please, 
+include your e-mail address. 
+For multiauthored papers names and addresses can be placed
+either side by side, or one under another. Please do not
+put addresses in footnotes.
+
+\subsection{Paragraphs}
+Do not indent the initial lines of paragraphs. 
+Leave a line clear between paragraphs.
+
+\subsection{References} References should be numbered
+consecutively throughout the paper and be listed at the end
+of the paper with the main heading {\bf References}. 
+When citing references in the text, type the
+corresponding number in square brackets \cite{1}. 
+References should be complete and in standard IEEE style.
+See the section {\bf References} for examples of listing
+different kinds of publications \cite{1}--\cite{3}.
+
+\subsection{Equations}
+Equations have to be numbered consecutively with the number
+in parenthesis, flush to the right. E.g., see 
+the equation (\ref{E1})
+\begin{equation}                        \label{E1}                 
+\sigma(t)=\sigma_0(t)-\int_0^T \gamma(t-s)u(s)\,ds.
+\end{equation}
+
+\subsection{Theorems, Lemmas, Remarks, Definitions and so on}
+The body of a theorem, or a similar statement, can be typed 
+either in roman, or in italic font. When using \LaTeX~employ the 
+\verb|\newtheorem| command. E.g.,
+\begin{lemma}
+Body of the lemma. Body of the lemma. Body of the lemma.
+Body of the lemma. Body of the lemma. Body of the lemma.
+Body of the lemma. Body of the lemma. Body of the lemma.
+\end{lemma}
+
+For proofs the following style is recommended:
+
+\begin{proof}
+Body of the proof. Body of the proof. Body of the proof.
+Body of the proof. Body of the proof. Body of the proof.
+Body of the proof. Body of the proof. Body of the proof.
+\end{proof}
+When using LaTeX, the {\bf proof} environment, defined
+in the style file {\bf physcon.sty} can be applied.
+
+\subsection{Illustrations}
+
+Please avoid halftone illustrations and photographs.
+The papers will be printed in black and white. 
+Colored figures are acceptable for CD~ROM
+publications, but please make sure that they are reproduced 
+clearly in gray scale and the text does not refer to colors.
+
+Figures should be inserted near their citation or at the end of the 
+manuscript, after References.  Large figures may extend 
+over two columns if necessary.  Make sure that you number 
+and include a caption 
+for each figure. See Fig.~\ref{Fig1} and Fig.~\ref{Fig2}
+for examples.
+\begin{figure}
+\begin{center}
+\begin{picture}(220,60)
+\put(20,40){\circle{15}}             
+\put(23,28){{\small $-$}}
+\put(15,35){\line(1,1){10}}         
+\put(25,35){\line(-1,1){10}}        
+\put(28,40){\vector(1,0){36}}       
+\put(34,45){$\sigma(t)$}
+\put(64,30){\framebox(40,20){PM}}  
+\put(104,40){\vector(1,0){36}}      
+\put(109,45){$f(t)$}
+\put(140,30){\framebox(40,20){CLP}}
+\put(180,40){\line(1,0){32}}       
+\put(212,40){\line(0,-1){30}}      
+\put(212,10){\line(-1,0){192}}     
+\put(20,10){\vector(0,1){23}}      
+\end{picture}
+\end{center}
+\caption{One-column sample picture}\label{Fig1}
+\end{figure}
+\begin{figure*}
+\begin{center}
+\begin{picture}(300,100)
+\put(50,80){\circle{15}}             
+\put(35,85){{\small $+$}}
+\put(53,68){{\small $-$}}
+\put(45,75){\line(1,1){10}}         
+\put(55,75){\line(-1,1){10}}        
+\put(8,80){\vector(1,0){34}}        
+\put(8,85){$\psi(t)$}
+\put(58,80){\vector(1,0){36}}       
+\put(64,85){$\sigma(t)$}
+\put(94,70){\framebox(40,20){PWM}}
+\put(134,80){\vector(1,0){36}}
+\put(152,80){\circle*{2}}
+\put(138,85){$f(t)$}
+\put(178,80){\circle{15}}
+\put(163,85){{\small $+$}}
+\put(181,68){{\small $-$}}
+\put(173,75){\line(1,1){10}}         
+\put(183,75){\line(-1,1){10}}        
+\put(185.5,80){\vector(1,0){30}}
+\put(216,70){\framebox(40,20){$W(s)$}}
+\put(271,85){$\xi(t)$}
+\put(256,80){\line(1,0){42}}
+\put(298,80){\line(0,-1){70}}
+\put(298,10){\line(-1,0){248}}
+\put(50,10){\vector(0,1){62}}
+
+\put(216,30){\framebox(40,20){$R(s)$}}
+\put(276,80){\circle*{2}}
+\put(276,80){\line(0,-1){40}}
+\put(276,40){\vector(-1,0){20}}
+\put(216,40){\line(-1,0){38}}
+\put(190,45){$v(t)$}
+\put(178,40){\vector(0,1){10}}
+\put(178,50){\circle*{2}}
+\put(178,63){\vector(0,1){10}}
+\put(178,63){\circle*{2}}
+\put(152,80){\line(0,-1){26}}
+\put(152,54){\vector(1,0){20.5}}
+\thicklines
+\put(178,50){\line(-1,1){10}}
+\end{picture}
+\end{center}
+\caption{Two-columns sample picture}\label{Fig2}
+\end{figure*}
+
+\subsection{Tables}
+Table heading, including the number, is to be typed
+above the table. See, e.g., 
+\begin{table}[htb]
+\begin{center}
+\caption{Caption text}
+\begin{tabular}{lll}
+\hline
+Title 1 & Title 2 & Title 3\\
+\hline
+Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3\\
+Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3\\
+Row 3, Col 1 & Row 3, Col 2 & Row 3, Col 3\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection{Footnotes}
+Please, do not use footnotes at all. 
+Authors' addresses have to be
+placed after the authors' names below the title of the paper. 
+Information about any financial support should be placed 
+in the subsection {\bf Acknowledgements} at the end of your paper. 
+
+\subsection{Page Numbers, Session Number, 
+Copyright Information and Conference Identifications}
+
+Please, do not number pages. All the information listed above
+will be inserted later by the proceedings printer.
+
+\section{Headings}
+
+Main headings are to be column centered in a bold font. 
+They may be numbered, if so desired. 
+
+\subsection{Subheadings}
+Subheadings should be in a bold font. They should start at 
+the left-hand margin on a separate line. 
+
+\subsubsection{Sub-subheadings} They are to be in a bold font,
+should be indented and run in at the beginning of the paragraph.
+
+\section{Hints for \LaTeX~Users}
+
+It is highly recommended that your paper be
+prepared using \LaTeX~document preparation system.
+We provide \LaTeX~2\raisebox{-2pt}{$\varepsilon$}
+users with a class file {\bf physcon.cls} and  
+\LaTeX~2.09 users with a style file {\bf physcon.sty}.  
+Both files are available from PhysCon home page
+{\bf http://www.physcon.ru}.
+The \LaTeX~file, containing this instruction, is partly
+given in Appendix and can serve as a specimen. 
+
+\section{Technical Information}
+
+\subsection{How to Produce a Postscript File}
+
+A straightforward way to obtain a Postscript file from a file
+of any format is to print it with a Postscript driver.
+If you use a Postscript printer, you also have such driver
+installed. Otherwise, you may install a driver for a Postscript
+printer (e.g., for Apple Laser Writer) from standard distributives.
+Details depend on your platform,
+e.g., for Windows use Control Panel/Add Printer.
+Configure the driver to download all fonts (this may be automatic), 
+and if available configure the driver for maximum postscript portability.
+Do not use internal printer fonts. 
+Then print your file employing ``Print to File''
+option.
+
+The most common way is to produce a Postscript file from \TeX\
+is using the dvips.exe utility (it is included in most of the modern
+\TeX\ distributions and also available from the website
+{\tt http://www.radicaleye.com/dvips}).
+To obtain later better readible PDF fonts, users 
+should apply this utility with the Ppdf option, e.g.:\\ 
+{\tt dvips -Ppdf filename.dvi}
+
+\subsection{Requirements to a PDF File}
+
+The conference CD ROM will contain a collection of files
+in the PDF file format. Such files can be viewed on screen
+or printered using the free software named Acrobat Reader,
+which is developed by Adobe Systems and has versions for the 
+most popular platforms (Windows, Mac, and Unix).
+
+Files with conference papers should be fully portable.
+It means that they should be properly viewed and printered
+at any computer in any country. It can be achieved by embedding
+fonts into PDF documents. 
+You make check the fonts you used with the 
+Acrobat Reader menus:
+{\tt  File/Document Info/Fonts}.    
+
+\subsection{How to Produce a PDF File from Postscript}
+
+To convert a Postscript file to a PDF file you need a program
+called Adobe Acrobat Distiller, which is a part of Adobe Acrobat
+package. Unlike Acrobat Reader, this program is not free,
+so, if you do not have it, we will execute the conversion by
+ourselves.
+
+A Postript file or a Microsoft Word file can serve as an input
+for this program.
+
+Within Distiller's ``Job Options'' dialog 
+(select using menu item {\tt Distiller/Job Options}), 
+configure the following:
+
+On the ``Font Embedding'' tab turn ON the ``Embed all fonts'' control.
+ 
+Turn ON the ``Subset fonts below'' control and type in the value 100 
+(i.e. any font below 100\% usage will be stored in the Acrobat file 
+as a subset of the original font.) 
+This subset operation is necessary to protect the copyright of 
+the font creator. 
+
+On the ``Compression'' tab, turn ON the ``Compress Text and Line Art'' 
+control. 
+
+Turn OFF the ``Downsample'' control for color, grayscale and monochrome 
+images. (Image size is permitted to be large when the document 
+is stored on CDROM.) 
+
+Turn ON ``Manual Compression'' for color images and set to JPEG High.
+ 
+Turn ON ``Manual Compression'' for grayscale images and set to JPEG High.
+ 
+Turn ON ``Manual Compression'' for monochrome images and set to 
+CCITT Group 4. 
+
+
+{\em Important note.} Another program that is commonly used for
+Postscript--PDF conversion is Acrobat Writer. However, this
+program does not properly embed fonts into a document. 
+That is why we ask you {\em not to apply Acrobat Writer}.
+
+\subsection{How to Produce a PDF File from \TeX}
+
+There are several ways to produce a PDF document 
+immediately from \TeX.
+(A comprehensive treatment of the problem can be found in
+Chapter~2 \cite{1}.) Here we describe two of them.
+
+(i) You may use the dvipdfm.exe utility developed by
+M.A.~Wicks. Its Windows version is included in the latest
+MiK\TeX\ distributions 
+{\tt http://www.miktex.org} or \TeX Live package. 
+Its LINUX version is
+available from the website\\ 
+{\tt  http://gaspra.kettering.edu/dvipdfm}.\\
+This utility produces excellent quality documents immediately
+from a dvi-file, it uses partial fonts embedding (i.e., embeds
+only those characters that are needed in the document).  
+Some efforts are required when including images: only the images
+of JPG, PNG, and PDF formats are admissible, some special commands
+should be used for their inclusion.
+Please, take into account that {\tt dvipdf} uses Letter paper format
+by default, so A4 format should be indicated explicitely in
+the command line, e.g.:\\
+{\tt dvipdfm -p a4 filename.dvi}.
+
+(ii) The second way is to use PDF\TeX; it is also contained in 
+the last distributions of MiK\TeX\ and \TeX Live.
+The PDF\TeX\ programs produce pdf-files instead of dvi-files.
+You may just use {\bf pdflatex.exe} program, e.g.:\\
+{\tt   pdflatex filename.tex}.
+
+\section{IEEE Copyright Form}
+
+Complete the IEEE Copyright form available at our cite. 
+No paper can be published without this completed form. 
+The completed and signed form should be mailed 
+to us to arrive by 15 May 2003. 
+
+\section{Conclusions}
+                                  
+Please make an extra effort to follow these guidelines 
+as the quality of the publications depends on you. 
+Thank you for your cooperation and contribution. 
+We look forward to seeing you at our conference in 
+St.~Petersburg.
+
+\subsection*{Acknowledgements}
+
+This subsection can be used to acknowledge any kind 
+of support to your paper (e.g., you can mention your grants).    
+
+\begin{thebibliography}{55}
+\bibitem{1} M.~Goosens and S.~Rahtz,
+    {\it The \LaTeX Web Companion},
+    Addison--Wesley, 1999.
+    (A Russian translation is published by Mir,  
+    2001.)
+\bibitem{2} A.L.~Fradkov, ``Synthesis of an adaptive system
+    of linear plant stabilization,'' {\it Avtomat. i Telemekh.},
+    no.~12, pp.~96--103, 1974 (Russian).
+\bibitem{3} H.~Nijmeijer, I.I.~Blekhman, A.L.~Fradkov,
+    and A.Yu.~Pogromsky, 
+    ``Self-synchronization and controlled synchronization,"
+    {\it Proceedings of the 1st International Conference on 
+    Control of Oscillations and Chaos 
+    COC'97}, St.~Petersburg, Russia, 
+    August 27--29 1997, vol.~1, pp.~36--41.
+\end{thebibliography}
+
+\section*{Appendix}
+Here you find a shortened version of these
+instructions written in \LaTeX.
+  
+\begin{verbatim}
+%  This text follows LaTeX-2e  
+%  specifications. LaTeX 2.09 users 
+%  have to replace its first line for
+%  \documentstyle{physcon}  
+%
+\documentclass{physcon}  
+\begin{document}
+
+\title{Author's Guide\\
+International Conference\\
+``Physics and Control'' 
+(PhysCon 2003)
+}
+
+\author{Alexander N. Churilov\\                               
+Department of Computer Science\\
+St. Petersburg Marine Technical 
+University\\
+3 Lotsmanskaya Str.,
+190008 St.~Petersburg, Russia\\
+churilov@nm.ru, 
+http://churilov.nm.ru}
+\maketitle
+
+\begin{abstract}
+...........................................
+\end{abstract}
+
+\section{Manuscript Submission}
+
+Authors submit their manuscripts to the 
+Organizing Committee.
+...........................................  
+
+\section{General Specifications}
+...........................................  
+
+\subsection{References} References should 
+be numbered consecutively throughout the 
+paper and be listed at the end of the paper 
+with the main heading {\bf References}. 
+When citing references in the text, type 
+the corresponding number in square brackets 
+\cite{1}. References should be 
+complete and in standard IEEE style. 
+See the section {\bf References} for 
+examples of listing different kinds of 
+publications \cite{1}--\cite{3}.
+
+\subsection{Equations}
+Equations have to be numbered consecutively 
+with the number in parenthesis, flush to 
+the right. 
+E.g., see the equation (\ref{E1})
+\begin{equation}                 \label{E1}                 
+\sigma(t)=\sigma_0(t)-\int_0^T 
+                       \gamma(t-s)u(s)\,ds.
+\end{equation}
+
+\subsection{Theorems, Lemmas, Remarks, 
+Definitions and so on}
+The body of a theorem, or a similar 
+statement, can be typed either in roman, or 
+in italic font. 
+When using \LaTeX~employ 
+the \verb|\newtheorem| command. E.g.,
+\begin{lemma}
+Body of the lemma. Body of the lemma. 
+...........................................
+\end{lemma}
+
+For proofs the following style is 
+recommended:
+
+\begin{proof}
+Body of the proof. Body of the proof. 
+...........................................
+\end{proof}
+...........................................
+
+\subsection{Illustrations}
+...........................................
+ 
+Make sure that you number and include 
+a caption for each figure. See 
+Fig.~\ref{Fig1} and Fig.~\ref{Fig2} 
+for examples.
+\begin{figure}
+\begin{center}
+\begin{picture}(220,60)
+...........................................
+\end{picture}
+\end{center}
+\caption{One-column sample 
+                      picture}\label{Fig1}
+\end{figure}
+\begin{figure*}
+\begin{center}
+\begin{picture}(300,100)
+...........................................
+\end{picture}
+\end{center}
+\caption{Two-columns sample 
+                      picture}\label{Fig2}
+\end{figure*}
+
+\subsection{Tables}
+Table heading, including the number, is to 
+be typed above the table. See, e.g., 
+\begin{table}[htb]
+\begin{center}
+\caption{Caption text}
+\begin{tabular}{lll}\hline
+Title 1 & Title 2 & Title 3\\ \hline
+Row1, Col1 & Row1, Col2 & Row1, Col3\\
+Row2, Col1 & Row2, Col2 & Row2, Col3\\
+Row3, Col1 & Row3, Col2 & Row3, Col3\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+...........................................
+
+\section{Headings}
+
+Main headings are to be column centered 
+in a bold font. 
+They may be numbered, if so desired. 
+
+\subsection{Subheadings}
+Subheadings should be in a bold font. They 
+should start at the left-hand margin on 
+a separate line. 
+
+\subsubsection{Sub-subheadings} They are 
+to be in a bold font, should be indented 
+and run in at the beginning of 
+the paragraph.
+
+...........................................
+
+\subsection*{Acknowledgements}
+
+This subsection can be used to acknowledge 
+any kind of support to your paper 
+(e.g., you can mention your grants).    
+
+\begin{thebibliography}{55}
+\bibitem{1} M.~Goosens and S.~Rahtz,
+    {\it The \LaTeX Web Companion},
+    Addison--Wesley, 1999.
+    (A Russian translation is published 
+     by Mir, 2001.)
+\bibitem{2} A.L.~Fradkov, ``Synthesis of 
+an adaptive system of linear plant 
+stabilization,'' 
+{\it Avtomat. i Telemekh.},
+no.~12, pp.~96--103, 1974 (Russian).
+...........................................
+\end{thebibliography}
+\end{document}
+\end{verbatim}
+\end{document}
+
+
+
+
