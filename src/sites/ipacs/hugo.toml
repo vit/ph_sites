@@ -1,9 +1,9 @@
 # baseURL = 'https://example.org/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
 title = 'International Physics and Control Society (IPACS)'
-theme = 'ananke'
+# theme = 'ananke'
 
-copyright = 'The Laboratory "Control of Complex Systems", IPME RAS'
+# copyright = 'The Laboratory "Control of Complex Systems", IPME RAS'
 
 
 
@@ -14,13 +14,10 @@ publishDir = "public/ipacs"
 
 
 [params]
-    copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
+    # copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
     currentSiteId = 'ipacs'
 
-
 # sectionPagesMenu = 'main'
-
-
 
 
 [menus]
@@ -63,57 +60,6 @@ publishDir = "public/ipacs"
   #   name = 'Read Online'
   #   url = 'http://lib.physcon.ru/doc?id=29e59dce4f11'
   #   weight = 60
-
-
-
-  [[menus.physcon]]
-    identifier = 'ipacs'
-    name = 'IPACS Home'
-    url = 'http://physcon.my'
-    title = 'International Physics and Control Society home page'
-    weight = 10
-  [[menus.physcon]]
-    identifier = 'coms'
-    name = 'CoMS'
-    url = 'http://coms.physcon.my'
-    title = 'Conference Management System (submission site)'
-    weight = 20
-  [[menus.physcon]]
-    identifier = 'cap'
-    name = 'CAP Journal'
-    url = 'http://cap.physcon.my'
-	title = 'Cybernetics and Physics Journal'
-    weight = 30
-  [[menus.physcon]]
-    identifier = 'lib'
-    name = 'Library'
-    url = 'http://lib.physcon.my'
-	title = 'IPACS Electronic library'
-    weight = 40
-#   [[menus.physcon]]
-#     identifier = 'dir'
-#     name = 'Directory'
-#     url = 'http://physcon.my/dir'
-# 	title = 'Physics and Control resources directory'
-#     weight = 50
-  [[menus.physcon]]
-    identifier = 'conf'
-    name = 'Conferences'
-    url = 'http://conf.physcon.my'
-	title = 'Conferences sites'
-    weight = 60
-  [[menus.physcon]]
-    identifier = 'album'
-    name = 'Album'
-    url = 'http://album.physcon.my'
-	title = 'Album'
-    weight = 70
-
-
-
-
-
-
 
 
 

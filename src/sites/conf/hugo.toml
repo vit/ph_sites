@@ -1,31 +1,24 @@
 # baseURL = 'https://example.org/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
 title = 'PhysCon Conferences'
-theme = 'ananke'
+# theme = 'ananke'
 
-copyright = 'The Laboratory "Control of Complex Systems", IPME RAS'
+# copyright = 'The Laboratory "Control of Complex Systems", IPME RAS'
 
+# disableKinds = ["RSS"]
 
-
-#disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
-disableKinds = ["RSS"]
-
-
-
-#publishDir = '../publish'
 
 contentDir = "sites/conf/content"
 staticDir = "sites/conf/static"
 publishDir = "public/conf"
 
-# layoutDir = [ "sites/conf/layouts", "layouts" ]
-layoutDir = "layouts"
+# layoutDir = "layouts"
 
-uglyURLs = true
+# uglyURLs = true
 
 
 [params]
-    copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
+    # copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
     currentSiteId = 'conf'
 
 
@@ -33,91 +26,42 @@ uglyURLs = true
 
 
 
-
-# [menus]
-#   [[menus.main]]
-#     name = 'Main'
-#     pageRef = '/'
-#     weight = 10
-#   [[menus.main]]
-#     name = 'News'
-#     pageRef = '/news'
-#     weight = 20
-#   [[menus.main]]
-#     name = 'About IPACS'
-#     pageRef = '/about'
-#     weight = 30
-#   [[menus.main]]
-#     name = 'Regulations'
-#     pageRef = '/regulations'
-#     weight = 40
-#   [[menus.main]]
-#     name = 'Membership'
-#     pageRef = '/membership'
-#     weight = 50
-#   [[menus.main]]
-#     name = 'IPACS Officials'
-#     pageRef = '/officials'
-#     weight = 60
-#   [[menus.main]]
-#     name = 'Contacts'
-#     pageRef = '/contacts'
-#     weight = 70
-
-
-  # [[menus.external]]
-  #   name = 'Submit Online'
-  #   url = 'http://coms.physcon.ru/conf/1635/'
-  #   weight = 50
-  # [[menus.external]]
-  #   name = 'Read Online'
-  #   url = 'http://lib.physcon.ru/doc?id=29e59dce4f11'
+  # [[menus.physcon]]
+  #   identifier = 'ipacs'
+  #   name = 'IPACS Home'
+  #   url = 'http://physcon.my'
+  #   title = 'International Physics and Control Society home page'
+  #   weight = 10
+  # [[menus.physcon]]
+  #   identifier = 'coms'
+  #   name = 'CoMS'
+  #   url = 'http://coms.physcon.my'
+  #   title = 'Conference Management System (submission site)'
+  #   weight = 20
+  # [[menus.physcon]]
+  #   identifier = 'cap'
+  #   name = 'CAP Journal'
+  #   url = 'http://cap.physcon.my'
+	# title = 'Cybernetics and Physics Journal'
+  #   weight = 30
+  # [[menus.physcon]]
+  #   identifier = 'lib'
+  #   name = 'Library'
+  #   url = 'http://lib.physcon.my'
+	# title = 'IPACS Electronic library'
+  #   weight = 40
+  # [[menus.physcon]]
+  #   identifier = 'conf'
+  #   name = 'Conferences'
+  #   url = 'http://conf.physcon.my'
+	# title = 'Conferences sites'
   #   weight = 60
-
-
-
-  [[menus.physcon]]
-    identifier = 'ipacs'
-    name = 'IPACS Home'
-    url = 'http://physcon.my'
-    title = 'International Physics and Control Society home page'
-    weight = 10
-  [[menus.physcon]]
-    identifier = 'coms'
-    name = 'CoMS'
-    url = 'http://coms.physcon.my'
-    title = 'Conference Management System (submission site)'
-    weight = 20
-  [[menus.physcon]]
-    identifier = 'cap'
-    name = 'CAP Journal'
-    url = 'http://cap.physcon.my'
-	title = 'Cybernetics and Physics Journal'
-    weight = 30
-  [[menus.physcon]]
-    identifier = 'lib'
-    name = 'Library'
-    url = 'http://lib.physcon.my'
-	title = 'IPACS Electronic library'
-    weight = 40
-#   [[menus.physcon]]
-#     identifier = 'dir'
-#     name = 'Directory'
-#     url = 'http://physcon.my/dir'
-# 	title = 'Physics and Control resources directory'
-#     weight = 50
-  [[menus.physcon]]
-    identifier = 'conf'
-    name = 'Conferences'
-    url = 'http://conf.physcon.my'
-	title = 'Conferences sites'
-    weight = 60
-  [[menus.physcon]]
-    identifier = 'album'
-    name = 'Album'
-    url = 'http://album.physcon.my'
-	title = 'Album'
-    weight = 70
+  # [[menus.physcon]]
+  #   identifier = 'album'
+  #   name = 'Album'
+  #   url = 'http://album.physcon.my'
+	# title = 'Album'
+  #   weight = 70
 
 
 

@@ -5,15 +5,33 @@
 # $galicon = trim($galicon);
 # $galtype = trim($galtype);
 
-# 3rd IEEE Multi-conference on Systems and Control MSC 2009	|	July 8-10, 2009, Saint Petersburg, RUSSIA	| 	MSC 2009	|	msc09
-# 6th EUROMECH Conference ENOC 2008	|	June 30 - July 4, 2008, Saint Petersburg, RUSSIA	| 	ENOC 2008	|	enoc08
-# 9th IFAC Workshop "ADAPTATION AND LEARNING IN CONTROL AND SIGNAL PROCESSING" (ALCOSP'07), 3rd IFAC Workshop "PERIODIC CONTROL SYSTEMS" (PSYCO'07)	|	August 28-30, 2007, Saint Petersburg, RUSSIA	|	Alcosp 2007, Psyco 2007	|	alcosppsyco07
-# 2nd INTERNATIONAL CONFERENCE "PHYSICS AND CONTROL" (PhysCon 2005)	|	August 24-26, 2005, Saint Petersburg, RUSSIA	|	PhysCon 2005	|	physcon05
-# 1st INTERNATIONAL CONFERENCE "PHYSICS AND CONTROL" (PhysCon 2003)	|	August 20-22, 2003, Saint Petersburg, RUSSIA	|	PhysCon 2003	|	physcon03
-# Saint Petersburg &mdash; The Venice of the North	|		|	Saint Petersburg	|	venicenorth	|	|	1
-# History and views of Imperial Anichkov Palace	|	Saint Petersburg, RUSSIA	|	Anickov	|	anichkov	|	|	1
-
-
-
-
-
+- title: 3rd IEEE Multi-conference on Systems and Control MSC 2009
+  subtitle: July 8-10, 2009, Saint Petersburg, RUSSIA
+  shorttitle: MSC 2009
+  dir: msc09
+- title: 6th EUROMECH Conference ENOC 2008
+  subtitle: June 30 - July 4, 2008, Saint Petersburg, RUSSIA
+  shorttitle: ENOC 2008
+  dir: enoc08
+- title: 9th IFAC Workshop "ADAPTATION AND LEARNING IN CONTROL AND SIGNAL PROCESSING" (ALCOSP'07), 3rd IFAC Workshop "PERIODIC CONTROL SYSTEMS" (PSYCO'07)
+  subtitle: August 28-30, 2007, Saint Petersburg, RUSSIA
+  shorttitle: Alcosp 2007, Psyco 2007
+  dir: alcosppsyco07
+- title: 2nd INTERNATIONAL CONFERENCE "PHYSICS AND CONTROL" (PhysCon 2005)
+  subtitle: August 24-26, 2005, Saint Petersburg, RUSSIA
+  shorttitle: PhysCon 2005
+  dir: physcon05
+- title: 1st INTERNATIONAL CONFERENCE "PHYSICS AND CONTROL" (PhysCon 2003)
+  subtitle: August 20-22, 2003, Saint Petersburg, RUSSIA
+  shorttitle: PhysCon 2003
+  dir: physcon03
+- title: Saint Petersburg &mdash; The Venice of the North
+  subtitle: 
+  shorttitle: Saint Petersburg
+  dir: venicenorth
+  type: 1
+- title: History and views of Imperial Anichkov Palace
+  subtitle: Saint Petersburg, RUSSIA
+  shorttitle: Anickov
+  dir: anickov
+  type: 1

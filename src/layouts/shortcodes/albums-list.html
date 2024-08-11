@@ -1,0 +1,11 @@
+
+
+{{ range $.Site.Data.album.galleries }}
+
+    <div style="margin-top: 60px;">
+      <h2><a href="{{ .dir }}">{{ .title | safeHTML }}</a></h2>
+      <p>{{ .subtitle }}</p>
+    </div>
+
+{{ end }}
+

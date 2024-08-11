@@ -30,4 +30,6 @@ news:
 	python3 bin/gen_news.py
 
 
+hugo-bash:
+	docker run -it -v ./dst:/src/public --entrypoint /bin/bash hugo-env-my
 
