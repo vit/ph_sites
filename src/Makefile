@@ -9,6 +9,6 @@ build: clean
 	hugo -D --config="hugo.toml,sites/album/hugo.toml"
 
 clean:
-	rm -r public/*
+	# rm -r public/*
 
 

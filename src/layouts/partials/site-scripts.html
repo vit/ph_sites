@@ -1,0 +1,18 @@
+
+{{/* For Users's overwrite */}}
+
+{{ if .Params.useBuefy }}
+
+<script>
+    // we need this tweak because Buefy is not built for browsers
+    window.process = { env: { NODE_ENV: 'production' } };
+</script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ntohq/buefy-next/dist/buefy.css">
+
+<!-- useBuefy -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/buefy/dist/buefy.min.css"> -->
+{{ end }}
+
+

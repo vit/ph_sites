@@ -1,4 +1,150 @@
 
+{{ safeHTML `
+  <div id="app">
+
+
+  <div style="margin-top: 60px;" v-for="a in albums">
+    <h2>
+      <a v-if="a.type==1" v-bind:href="a['dir']">
+        {{ a['title'] }}
+      </a>
+      <a v-else @click="goGallery" href="#">
+        {{ a['title'] }}
+      </a>
+    </h2>
+    <p>
+      {{ a.subtitle }}
+    </p>
+  </div>
+
+
+  </div>
+  ` }}
+
+
+
+
+
+  <script type="module">
+    import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+  
+    createApp({
+      setup() {
+        const message = ref('Hello Vue!')
+        const albums = ref([1,2,3])
+
+        // this.parseFile();
+
+        return {
+          message,
+          albums
+        }
+      },
+
+      beforeMount() {
+        this.parseFile();
+      },
+
+      methods: {
+        goGallery() {
+          console.log("goGallery()");
+        },
+        clickMe() {
+          // console.log('Clicked!!')
+          // this.parseFile();
+          this.parseFile();
+        },
+
+        parseFile() {
+          fetch("galleries.txt")
+            .then((response) => response.text())
+            .then((text) => {
+              // console.log(text);
+              var separateLines = text.split(/\r?\n|\r|\n/g);
+              console.log(separateLines);
+              let items = separateLines
+                .map( (line) => line.split("|") )
+                .map( (row) => ({
+                  title: row[0],
+                  subtitle: row[1],
+                  shorttitle: row[2],
+                  dir: row[3],
+                  // type: row[5],
+                  type: (row[5] || "").trim(),
+                }))
+                .filter( (item) => item.title );
+              console.log(items);
+              this.albums = items;
+            });
+          // try {
+          //   const fetchResponse = await fetch(
+          //     "galleries.txt"
+          //   );
+          //   console.log(fetchResponse.text());
+          // } catch (ex) {
+          //   console.log("Error in fetch");
+          // }
+        }
+
+
+
+
+      }
+    }).mount('#app')
+  </script>
+
+
+
+<!--
+  <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ntohq/buefy-next/dist/buefy.js"></script>
+
+
+
+<script type="module">
+
+  const { createApp } = Vue
+
+  const app = createApp({
+      methods: {
+          clickMe() {
+              this.$buefy.notification.open('Clicked!!')
+              // this.parseFile();
+          },
+  //         async parseFile() {
+  //  try {
+  //    const fetchResponse = await fetch(
+  //      "galleries.txt"
+  //    );
+  //    console.log(fetchResponse.text());
+  //  } catch (ex) {
+  //    console.log("Error in fetch");
+  //  }
+// }
+
+
+        }
+  })
+  app.use(Buefy.default)
+  app.mount('#app')
+
+-->
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+<p>================================================</p>
 
 {{ range $.Site.Data.album.galleries }}
 
