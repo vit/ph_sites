@@ -1,0 +1,149 @@
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script> -->
+
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script> -->
+
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script> -->
+
+
+<script type="importmap">
+  {
+    "imports": {
+      "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+    }
+  }
+</script>
+
+
+
+
+{{ safeHTML `
+  <div id="app">
+    <div id="lightgallery">
+
+      <div style="margin-top: 60px;" v-for="a in albums">
+        <h2>
+            [[ a.title ]]
+        </h2>
+        <div iid="lightgallery">
+          <a :class="'item'" v-for="img in a.images" :href="''+a.dir+'/'+img.full" :data-src="''+a.dir+'/'+img.full" data-lightbox="gallery">
+            <img :src="''+a.dir+'/'+img.thumb" />
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'fadeDuration': 200,
+      'imageFadeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+
+  <script type="text/javascript">
+    // lightGallery(document.getElementById('lightgallery'), {
+    //     plugins: [lgZoom, lgThumbnail],
+    //     selector: ".item",
+    //     // licenseKey: 'your_license_key',
+    //     speed: 500,
+    // });
+</script>
+
+  ` }}
+
+
+  <script type="module">
+    import { createApp, ref } from 'vue'
+    
+
+    // import lightGallery from 'lightgallery';
+    // import lgThumbnail from 'lightgallery/plugins/thumbnail'
+    // import lightGallery from 'lg';
+//    import lgThumbnail from 'lgthumb'
+
+
+
+
+    const app = createApp({
+      delimiters: ["[[", "]]"],
+      setup() {
+        const albums = ref([])
+        return {
+          albums,
+        }
+      },
+
+      beforeMount() {
+        this.loadAlbums();
+      },
+
+      methods: {
+
+        async loadAlbums() {
+          this.albums = await this.parseAlbum();
+        },
+
+        async parseAlbum() {
+          const response = await fetch("parts.txt");
+          const text = await response.text();
+          var separateLines = text.split(/\r?\n|\r|\n/g);
+          let items = separateLines
+            .map( (line) => line.split("|") )
+            .map( (row) => {
+              const elm = {
+                title: (row[0] || "").trim(),
+                dir: (row[1] || "").trim(),
+              };
+              return elm;
+            })
+            .filter( (item) => item.title );
+          for(const elm of items) {
+            elm.images = await this.getAlbumPartImages(elm.dir);
+          }
+          return items;
+        },
+
+        async getAlbumPartImages(dir) {
+          const response = await fetch(dir+".txt");
+          const text = await response.text();
+          var separateLines = text.split(/\r?\n|\r|\n/g);
+          return separateLines
+            .map( (line) => line.split("|") )
+            .map( (row) => ({
+              thumb: (row[1] || "").trim(),
+              full: (row[2] || "").trim(),
+            }))
+            .filter( (item) => item.thumb );
+        },
+      },
+    });
+    
+    // const HelloWorld = app.component('helloworld', {
+    //   delimiters: ["[[", "]]"],
+    //   props: ['msg'],
+    //   template: `<div>
+    //     <h1>Hello world</h1>
+    //     <div>[[ this.msg ]]</div>
+    //   </div>`
+    // });
+
+
+    app.mount('#app');
+  </script>
+
+
+
+
+</script>
+
+
+
