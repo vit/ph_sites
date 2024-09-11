@@ -1,6 +1,7 @@
 
 services:
   ph_sites:
+    restart: always
     container_name: ph_sites
     image: nginx
     expose:
