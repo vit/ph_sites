@@ -23,42 +23,42 @@ uglyURLs = true
     identifier = 'ipacs'
     name = 'IPACS Home'
     # url = 'http://physcon.my'
-    url = 'http://physcon.my'
+    url = 'http://$IPACS_DOMAIN_NAME'
     title = 'International Physics and Control Society home page'
     weight = 10
   [[menus.physcon]]
     identifier = 'coms'
     name = 'CoMS'
     # url = 'http://coms.physcon.my'
-    url = 'http://coms.physcon.my'
+    url = 'http://$COMS_DOMAIN_NAME'
     title = 'Conference Management System (submission site)'
     weight = 20
   [[menus.physcon]]
     identifier = 'cap'
     name = 'CAP Journal'
     # url = 'http://cap.physcon.my'
-    url = 'http://cap.physcon.my'
+    url = 'http://$CAP_DOMAIN_NAME'
 	  title = 'Cybernetics and Physics Journal'
     weight = 30
   [[menus.physcon]]
     identifier = 'lib'
     name = 'Library'
     # url = 'http://lib.physcon.my'
-    url = 'http://lib.physcon.my'
+    url = 'http://$LIB_DOMAIN_NAME'
 	  title = 'IPACS Electronic library'
     weight = 40
   [[menus.physcon]]
     identifier = 'conf'
     name = 'Conferences'
     # url = 'http://conf.physcon.my'
-    url = 'http://conf.physcon.my'
+    url = 'http://$CONF_DOMAIN_NAME'
 	  title = 'Conferences sites'
     weight = 60
   [[menus.physcon]]
     identifier = 'album'
     name = 'Album'
     # url = 'http://album.physcon.my'
-    url = 'http://album.physcon.my'
+    url = 'http://$ALBUM_DOMAIN_NAME'
 	  title = 'Album'
     weight = 70
 
