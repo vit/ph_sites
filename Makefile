@@ -50,7 +50,7 @@ down:	## Stop docker compose
 ps:	## List docker compose containers
 	docker compose -f compose/docker-compose.yaml ps
 
-c:	## List docker compose containers
+c:	## 
 	docker compose -f compose/docker-compose.yaml config
 
 
