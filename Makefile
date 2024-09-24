@@ -38,20 +38,34 @@ hugo-bash:
 
 
 
+debug0:	## Start docker compose with debug output
+	docker compose -f compose_2/docker-compose.yaml up
 debug:	## Start docker compose with debug output
-	docker compose -f compose/docker-compose.yaml up
+	docker compose up
 
-up:	## Start docker compose detouched
+
+up0:	## Start docker compose detouched
 	docker compose -f compose/docker-compose.yaml up -d
+up:	## Start docker compose detouched
+	docker compose up -d
 
-down:	## Stop docker compose
+
+down0:	## Stop docker compose
 	docker compose -f compose/docker-compose.yaml down
+down:	## Stop docker compose
+	docker compose down
 
+
+ps0:	## List docker compose containers
+	docker compose -f ./compose/docker-compose.yaml ps
 ps:	## List docker compose containers
-	docker compose -f compose/docker-compose.yaml ps
+	docker compose ps
 
-c:	## 
+
+c0:	## 
 	docker compose -f compose/docker-compose.yaml config
+c:	## 
+	docker compose config
 
 
 
