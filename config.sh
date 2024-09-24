@@ -9,6 +9,8 @@
 envsubst < compose/config/nginx/default-template.conf > compose/config/nginx/default.conf
 envsubst < src/hugo-template.toml > src/hugo.toml
 
+git submodule update --init --recursive
+
 
 # printenv
 
