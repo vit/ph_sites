@@ -1,4 +1,6 @@
 
+name: ph_sites_${ENV_NAME}
+
 services:
   ph_sites:
     restart: always
