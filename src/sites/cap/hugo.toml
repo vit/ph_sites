@@ -10,6 +10,9 @@ contentDir = "sites/cap/content"
 publishDir = "public/cap"
 
 
+disablePathToLower = true
+
+
 [params]
     # copyrightURL = 'https://www.ipme.ru/ipme/labs/ccs/'
     currentSiteId = 'cap'
@@ -39,6 +42,26 @@ publishDir = "public/cap"
     name = 'For authors'
     pageRef = '/forauthors'
     weight = 40
+  [[menus.main]]
+    name = 'Contacts'
+    pageRef = '/contacts'
+    weight = 70
+
+
+  [[menus.main]]
+    name = 'CAP Flyer'
+    url = '/cap/CAPjournalinfo.pdf'
+    weight = 100
+    [menus.main.params]
+      class = 'pdf'
+  [[menus.main]]
+    name = 'Publication Ethics'
+    url = '/cap/CAP_Publication_Ethics.pdf'
+    weight = 110
+    [menus.main.params]
+      class = 'pdf'
+
+
   [[menus.external]]
     name = 'Submit Online'
     url = 'http://coms.physcon.ru/conf/1635/'
@@ -47,10 +70,6 @@ publishDir = "public/cap"
     name = 'Read Online'
     url = 'http://lib.physcon.ru/doc?id=29e59dce4f11'
     weight = 60
-  [[menus.main]]
-    name = 'Contacts'
-    pageRef = 'contacts'
-    weight = 70
 
 
 
