@@ -3,3 +3,10 @@ dst
 src/public
 
 .env
+
+src/hugo.toml
+compose/config/nginx/default.conf
+
+
+
+
