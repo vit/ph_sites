@@ -32,6 +32,10 @@ build-hugo:
 	docker run -it -v ./dst:/src/public hugo-env-my
 
 
+# clean:
+# 	docker run -it -v ./dst:/src/public --entrypoint 'make clean' hugo-env-my
+
+
 
 hugo-bash:
 	docker run -it -v ./dst:/src/public --entrypoint /bin/bash hugo-env-my
