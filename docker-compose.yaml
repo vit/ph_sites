@@ -19,6 +19,11 @@ services:
         ${CAP_DOMAIN_NAME},
         ${CONF_DOMAIN_NAME},
         ${ALBUM_DOMAIN_NAME}, 
+      LETSENCRYPT_HOST:
+        ${IPACS_DOMAIN_NAME},
+        ${CAP_DOMAIN_NAME},
+        ${CONF_DOMAIN_NAME},
+        ${ALBUM_DOMAIN_NAME},
     # env_file:
     #   - ./development.env
     # environment:
