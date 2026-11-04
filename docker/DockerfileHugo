@@ -1,10 +1,21 @@
 
 
 FROM golang:1.22.6
+#FROM golang:1.24
 
-RUN go install github.com/gohugoio/hugo@latest
-RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+#RUN go install github.com/gohugoio/hugo@latest
+#RUN go install github.com/gohugoio/hugo@v0.145
+#RUN go install github.com/gohugoio/hugo@v0.143.1
+#RUN go install github.com/gohugoio/hugo@v0.140.2
+RUN go install github.com/gohugoio/hugo@v0.139.5
 
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.146.7
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.145
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.144.2
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.143.1
+#RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.140.2
+RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.139.5
 
 COPY ./src /src
 WORKDIR /src

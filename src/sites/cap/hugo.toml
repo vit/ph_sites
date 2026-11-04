@@ -64,7 +64,8 @@ disablePathToLower = true
 
   [[menus.external]]
     name = 'Submit Online'
-    url = 'http://coms.physcon.ru/conf/1635/'
+    # url = 'http://coms.physcon.ru/conf/1635/'
+    url = 'http://coms.physcon.ru/conf/1654/'
     weight = 50
   [[menus.external]]
     name = 'Read Online'
