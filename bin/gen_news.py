@@ -1,7 +1,8 @@
 
 
 import sqlite3
-import dateutil
+#import dateutil
+from dateutil import parser
 import yaml
 
 # DB_FILENAME = 'data/ipacs_news.db'
@@ -17,7 +18,8 @@ with sqlite3.connect(DB_FILENAME) as connection:
     # news_list = [ dict(zip(FIELD_NAMES, d)) for d in all_news ]
 
     news_list = list( map(lambda row: dict(row, **{
-        'created_at': dateutil.parser.parse(row['created_at']) 
+#        'created_at': dateutil.parser.parse(row['created_at']) 
+        'created_at': parser.parse(row['created_at']) 
     }), [
         dict( zip(FIELD_NAMES, row) ) for row in all_news
     ]) )

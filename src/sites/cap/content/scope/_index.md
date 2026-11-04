@@ -15,19 +15,18 @@ The scope of the journal includes:
 * Control of chaos and bifurcations
 * Control in thermodynamics 
 * Control of flows and turbulence
-* Information Physics
+* Information physics
+* Physical artificial intelligence
 * Cyber-physical systems
+* Cybernetical neuroscience
 * Modeling and identification of physical systems 
+* Physics informed neural networks
 * Quantum information and control
 * Analysis and control of complex networks
 * Synchronization of systems and networks
 * Control of mechanical and micromechanical systems
 * Dynamics and control of plasma, beams, lasers, nanostructures
-* Applications of cybernetic methods in chemistry, biology, other natural sciences
+* Applications of cybernetic methods and artificial intelligence in chemistry, biology, neuroscience, other natural sciences
 
 
-The papers in cybernetics with physical flavor as well as the papers in physics with cybernetic flavor are welcome. Cybernetics is assumed to include, in addition to control, such areas as estimation, filtering, optimization, identification, information theory, pattern recognition and other related areas.
-
-
-
-
+The papers in cybernetics with physical flavor as well as the papers in physics with cybernetic flavor are welcome. Cybernetics is assumed to include, in addition to control, such areas as estimation, filtering, optimization, identification, information theory, pattern recognition machine learning and other related areas.

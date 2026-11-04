@@ -15,6 +15,7 @@ Journal  Cybernetics and Physics (CAP)  is published under umbrella of  the Inte
 The scope of the journal includes all areas related to Cybernetics and Physics.
 
 Prospective authors are invited to submit high quality papers on applications of cybernetic methods to physical sciences and technologies. The papers in cybernetics with physical flavor as well as the papers in physics with cybernetic flavor are welcome.
+A prospective area of artificial intelligence is treated as a part of cybernetics with focus on control related applications, machine learning and adaptation in and physically informed neural networks.
 
 Frequency: 4 issues per year; the issues are typically released in the 2nd quarter, 3rd quarter and two issues in the 4th quarter of each year.  
 ISSN 2226-4116 (Online), ISSN 2223-7038 (Print)  
@@ -28,5 +29,3 @@ All the contents of the journal, except where otherwise noted, is licensed under
 ---
 
 [![SCImago Journal &amp; Country Rank](https://www.scimagojr.com/journal_img.php?id=21100818722)](https://www.scimagojr.com/journalsearch.php?q=21100818722&tip=sid&exact=no)
-
-

@@ -14,11 +14,12 @@ date = 2024-07-18T21:27:58Z
 
 * [Guanrong (Ron) CHEN](http://www.ee.cityu.edu.hk/~gchen/) (Center for Chaos and Complex Networks, City University of Hong Kong, China)
 * [Felix L. CHERNOUSKO](http://www.ipu.ru/node/9601) (Institute for Problems of Mechanics, RAS, Moscow, Russia)
-* [Leon O. CHUA](https://people.eecs.berkeley.edu/~chua/) (Dept of Electrical Eng. and Computer Sci, University of California Berkeley, USA)
+* [Leon O. CHUA](https://people.eecs.berkeley.edu/~chua/) (Dept of Electrical Eng. and Computer Sci, University of California, USA)
 * [Katsuhisa FURUTA](http://t2r2.star.titech.ac.jp/cgi-bin/researcherinfo.cgi?lv=en&q_researcher_content_number=aa6a4f609b48a54b55c76683bb9c1fd2) (President, Denki University, Japan)
 * [Celso GREBOGI](http://www.abdn.ac.uk/ncs/profiles/grebogi) (University of Aberdeen, UK)
 * [Martin HASLER](https://people.epfl.ch/martin.hasler) (Swiss Federal Inst. Technology, Losanna, Switzerland)
 * [Jürgen KURTHS](https://www.pik-potsdam.de/members/kurths) (Dept. Physics, University of Potsdam, Germany)
+* [Eckehard SCHÖLL](http://www.itp.tu-berlin.de/schoell/nlds/home/) (Dept. Physics, Technical University of Berlin, Germany)
 * [James A. YORKE](http://yorke.umd.edu) (University of Maryland, USA)
 
 **Associate Editors:**
@@ -39,12 +40,5 @@ date = 2024-07-18T21:27:58Z
 * [Dmitry OVSYANNIKOV](http://www.apmath.spbu.ru/ru/staff/ovsyannikov/index.html) (St. Petersburg State University, Russia)
 * [Kestutis PYRAGAS](http://pyragas.pfi.lt) (Institute of Semiconductor Physics, Lithuania)
 * [Sergei Salishchev](https://csd.spbu.ru/staff/34-staff/s-i-salischev/31-s-i-salischev.html) (Dept. Informatics, St. Petersburg State University, Russia)
-* [Eckehard SCHÖLL](http://www.itp.tu-berlin.de/schoell/nlds/home/) (Dept. Physics, Technical University of Berlin, Germany)
 * [Stanislaw SIENIUTYCZ](http://www.ichip.pw.edu.pl/en/sieniutycz) (Faculty of Chemical Eng, Warsaw Univ. Technology, Poland)
 * [Xiaofan WANG](http://iwct.sjtu.edu.cn/Personal/xwang8/) (Shanghai Jiao Tong Univ, China)
-
-
-
-
-
-
